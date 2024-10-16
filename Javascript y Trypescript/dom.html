@@ -1,0 +1,58 @@
+
+
+
+<p id="demo"></p>
+<p tag="p">asd</p>
+<script>
+    document.getElementById("demo").innerHTML = "Hello"
+</script>
+
+<p>Use the getElementsByTagName method to find the first <p> element, and change its text to "Hello".</p>
+
+<script>
+document.getElementsByTagName("p")[0].innerHTML= "Hello putas";
+</script>
+
+
+<p class="test"> Change the text of the first element that has the class name "test".</p>
+<p class="test"> Change the text of the first element that has the class name "test".</p>
+
+<script>
+document.getElementsByClassName("test")[0].innerHTML= "Hello cambiado jsijijs";
+</script>
+
+
+<p>Use HTML DOM to change the value of the image's src attribute.</p>
+<img id="image" src="smiley.gif" alt="smiley face image">
+
+<script>
+document.getElementById("image").src= "pic_mountain.jpg";
+</script>
+
+
+<input type="text" id="myText" value="Hello">
+
+<script>
+document.getElementById("myText").value = "Have a nice day!";
+</script>
+
+
+
+<p id="demo"></p>
+
+<script>
+ document.getElementById("demo").style.color = "red";
+</script>
+
+
+
+
+<button id="demo">Click me1</button>
+
+<script>
+    function myFunction() {
+        console.log("hola");
+    }
+
+    document.getElementById("demo").addEventListener("click", myFunction);
+</script>
